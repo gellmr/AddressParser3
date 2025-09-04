@@ -1,0 +1,13 @@
+# The .vs folder contains machine and user specific files. It should not be committed to source control.
+.vs/*
+
+# Ignore the obj and bin folder...
+obj/**
+bin/**
+
+# Dont track .pubxml files they can contain sensitive information
+*.pubxml
+*.pubxml.user
+
+# Ignore project per-user settings in visual studio
+*.csproj.user
